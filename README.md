@@ -1,4 +1,4 @@
 # Edgeworker-pipeline
-Shows a GitHub workflow to deploy and activate Edgeworker code
+Shows a sample GitHub workflow to build, deploy and activate Edgeworker code.
 
-Takes Edgeworker code from the repository, and will build the code bundle, deploy it to the Akamai platform and activate it for testing 
+When a new version of the Edgeworker code is committed to the repository, the deployment workflow will automatically build the code bundle, deploy it to the Akamai platform and activate it for testing!
