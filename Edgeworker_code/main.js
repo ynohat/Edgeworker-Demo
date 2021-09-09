@@ -1,7 +1,7 @@
 /*
 (c) Copyright 2020 Akamai Technologies, Inc. Licensed under Apache 2 license.
 
-Version: 0.2
+Version: 0.3
 Purpose:  EdgeWorker that generates a simple html page at the Edge and adds a response header
 Repo: https://github.com/akamai/edgeworkers-examples/tree/master/hello-world
 */
