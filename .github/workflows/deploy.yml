@@ -31,7 +31,7 @@ jobs:
         uses: jdmevo123/akamai-edgeworker-action@1.1
         env:
           EDGERC: ${{ secrets.AKAMAI_EDGERC }}
-          WORKER_DIR: workerdirname # Optional directory for worker code (relative)
+          WORKER_DIR: Edgeworker_code # Optional directory for worker code (relative)
         with:
           # Name of Edgeworker
           edgeworkersName: ${{ github.event.repository.name }}
