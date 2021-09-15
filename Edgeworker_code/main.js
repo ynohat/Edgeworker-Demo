@@ -1,7 +1,6 @@
 /*
 (c) Copyright 2020 Akamai Technologies, Inc. Licensed under Apache 2 license.
 
-Version: 0.4
 Purpose:  EdgeWorker that generates a simple html page at the Edge and adds a response header
 Repo: https://github.com/akamai/edgeworkers-examples/tree/master/hello-world
 */
@@ -21,5 +20,5 @@ export function onClientResponse (request, response) {
   // Outputs a message to the X-Akamai-EdgeWorker-onClientResponse-Log header.
   logger.log('Adding a header in ClientResponse');
 
-  response.setHeader('X-Hello-World', 'Hi mom!');
+  response.setHeader('X-Hello-World', 'Hi homies!');
 }
