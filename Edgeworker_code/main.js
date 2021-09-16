@@ -20,5 +20,5 @@ export function onClientResponse (request, response) {
   // Outputs a message to the X-Akamai-EdgeWorker-onClientResponse-Log header.
   logger.log('Adding a header in ClientResponse');
 
-  response.setHeader('X-Hello-World', 'Hi everyone!');
+  response.setHeader('X-Hello-World', 'Hi world!');
 }
