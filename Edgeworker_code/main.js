@@ -13,7 +13,7 @@ export function onClientRequest (request) {
   logger.log('Responding with hello world from the path: %s', request.path);
   request.respondWith(
     200, {},
-    '<html><body><h1>Hello World From Akamai EdgeWorkers</h1></body></html>');
+    '<html><body><h1>Hello World From Akamai EdgeWorkers - Testing from California 9/16</h1></body></html>');
 }
 
 export function onClientResponse (request, response) {
