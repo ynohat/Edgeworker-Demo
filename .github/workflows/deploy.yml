@@ -36,7 +36,7 @@ jobs:
           WORKER_DIR: Edgeworker_code # Optional directory for worker code (relative)
         with:
           # Name of Edgeworker
-          edgeworkersName: ${{ github.event.repository.name }}
+          edgeworkersName: anthony-hogg_hello_world
           # Network you wish to activate
           network: 'staging'
           # GroupID for new registrations
